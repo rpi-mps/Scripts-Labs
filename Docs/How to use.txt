@@ -1,0 +1,21 @@
+How to use:
+
+1. Download the correct archive for your OS and unzip it to wherever you want
+
+2. Save your .c files in the relevant lab's "src" folder and your .h files in the corresponding "inc" folder***
+
+3. Open Command Prompt/Terminal in the relevant lab's folder (the folder with the Compile/Upload/Cleanup files)
+>> Windows: In the lab's folder, do File --> Command Prompt or just Shift + Right Click --> Open command window here (also works with PowerShell)
+>> macOS: You need this: http://lifehacker.com/launch-an-os-x-terminal-window-from-a-specific-folder-1466745514
+>> Linux: In the lab's folder, Right Click --> Open in Terminal
+
+4. Type ".\Compile.bat" on Windows or "./Compile.sh" on macOS/Linux
+
+5. Type ".\Upload.bat" on Windows or "./Upload.sh" on macOS/Linux
+
+6. To clean up the compiled files (i.e. to reset the build system), type ".\Cleanup.bat" on Windows or "./Cleanup.sh" on macOS/Linux 
+
+***Note: With this build system, .c and .h files can be made with your favorite editor. I highly recommend Atom, GitHub's official code editor.
+
+-Karl Nasrallah
+EE/Physics dual, Class of 2018

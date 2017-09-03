@@ -1,0 +1,3 @@
+stm32lib/Drivers/CMSIS/Include
+stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc

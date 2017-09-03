@@ -1,0 +1,13 @@
+Unzip the contents of "Latest Windows USB Driver 11-5-2016.zip" somewhere, and run "dpinst_amd64.exe" (for 64-bit Windows) or "dpinst_x86.exe" (for 32-bit Windows). Nothing will work right until you do this!
+
+Next, please read the README inside the Docs folder, it's really detailed and really important. 
+
+If using this build system, it is essential to understand how to compile HAL-related projects using the scripts provided in the Labxx folder.
+
+I tried to make this build system as simple as possible, but there are some really important things to keep in mind, all of which are outlined in the README.
+
+Also, read "About folder names.txt" (it's in the Docs folder) if you want to know what you can and cannot safely rename.
+
+Enjoy!
+-Karl Nasrallah
+EE/Physics dual, Class of 2018

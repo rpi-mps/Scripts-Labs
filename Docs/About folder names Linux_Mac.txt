@@ -1,0 +1,43 @@
+If you rename or change any top-level directory names, you must re-run the compile script. The compile script re-generates any absolute paths it needs when it runs.
+
+Folder names you should not ever change:
+>> Backend (and anything inside Backend)
+
+In the lab folder:
+>> src
+>> inc
+>> startup
+
+File names you should not ever change:
+>> Anything inside Backend
+
+In the lab folder:
+>> c_files.txt
+>> h_files.txt
+>> Anything inside startup
+>> init.h
+>> init.c
+>> uart.h
+>> uart.c
+>> stm32f7xx_hal_conf.h
+
+Changing any of the above requires modifying the compile, cleanup, and upload scripts, which is a painful endeavor. Changing any folder names inside the Backend folder will probably cause builds and includes to fail.
+Don't change anything listed above.
+
+Folder names you can and are encouraged to change (and you will simply need to re-run the compile script if done mid-lab):
+>> MPS (this folder)
+>> Labxx
+>> Any folder containing these.
+
+File names you can and are encouraged to change:
+>> hello.c
+>> hello.h
+These are your code files, and can be named whatever you want. I would not recommend putting spaces in these files' names, however.
+
+About spaces in path names:
+Windows CAN use spaces in folder names with this build system. It was a pain to implement, but it does work properly. Unfortunately, it seems support for pathname spaces is very inconsistent across macOS/Linux versions, so no guarantee it works for those.
+
+Also, you MUST make sure the c_files.txt and h_files.txt files are converted to use Unix-style LF line endings (they default to CRLF, which is Windows-style endings)—otherwise the build scripts won’t be able to process them correctly. To help with this, I have tried to make the Compile script automatically convert CRLF to LF in those two files, but it will only work if you have Perl installed (you can check if you do by running “perl -v” in the terminal).
+
+-Karl Nasrallah
+EE/Physics dual, Class of 2018

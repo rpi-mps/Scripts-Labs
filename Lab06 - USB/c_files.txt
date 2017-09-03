@@ -1,0 +1,15 @@
+stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hcd.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c
+stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c
